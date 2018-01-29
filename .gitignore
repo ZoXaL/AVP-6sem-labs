@@ -1,3 +1,6 @@
 _builds
 CMakeFiles
 *.swp
+*.s
+*.o
+a.out
