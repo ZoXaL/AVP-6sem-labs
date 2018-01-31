@@ -33,6 +33,22 @@ mtype** matrix_init()
 	return matrix;
 }
 
+void matrix_show(mtype **matrix)
+{
+	for (int i = 0; i < M_HEIGHT; i++) {
+		for (int j = 0; j < M_WIDTH; j++) {
+			printf("Matrix at [%d][%d]:\n", i, j);
+			for (int k = 0; k < CELL_HEIGHT; k++) {
+				for (int l = 0; l < CELL_WIDTH; l++) {
+					printf("%16.1F", matrix[i * M_WIDTH + j][k * CELL_WIDTH + l]);
+				}
+				printf("\n");
+			}
+			printf("------------------");
+			printf("------------------\n");
+		}
+	}
+}
 
 void matrix_destroy(mtype **matrix)
 {
