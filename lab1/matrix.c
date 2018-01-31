@@ -33,6 +33,22 @@ mtype** matrix_init()
 	return matrix;
 }
 
+mtype** matric_static_init()
+{
+	mtype **matrix = (mtype**)malloc(M_ELEMENTS * sizeof(mtype*));
+	if (matrix == NULL) {
+		perror("Matrix allocation");
+		exit(EXIT_ERROR);
+	}
+
+	for (int i = 0; i < M_HEIGHT * M_WIDTH; i++) {
+		matrix[i] = (mtype*)malloc(CELL_ELEMENTS * sizeof(mtype));
+		for (int j = 0; j < CELL_ELEMENTS; j++) {
+			matrix[i][j] = i + j + 1;
+		}
+	}	
+	return matrix;
+}
 void matrix_show(mtype **matrix)
 {
 	for (int i = 0; i < M_HEIGHT; i++) {
@@ -48,6 +64,26 @@ void matrix_show(mtype **matrix)
 			printf("------------------\n");
 		}
 	}
+}
+
+mtype** matrix_multiply(mtype ** first_matrix, mtype ** second_matrix)
+{
+	mtype** result = matrix_init();
+	for (int i = 0; i < M_HEIGHT; i++) {
+		for (int j = 0; j < M_WIDTH; j++) {
+			for (int k = 0; k < CELL_HEIGHT; k++) {
+				for (int m = 0; m < CELL_HEIGHT; m++) {
+					mtype res_el = 0;
+					for (int l = 0; l < CELL_WIDTH; l++) {
+						res_el += (first_matrix[i * M_WIDTH + j][k * CELL_WIDTH + l] *
+							second_matrix[i * M_WIDTH + j][l * CELL_WIDTH + m]);
+					}
+					result[i * M_WIDTH + j][k * CELL_WIDTH + m] = res_el;
+				}
+			}
+		}
+	}
+	return result;
 }
 
 void matrix_destroy(mtype **matrix)
