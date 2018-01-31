@@ -27,6 +27,7 @@ int main(int argc, char *argv[]) {
 	matrix_show(result);
 	matrix_destroy(matrix1);
 	matrix_destroy(matrix2);
+	matrix_destroy(result);
 	return 0;
 }
 
