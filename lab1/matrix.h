@@ -1,8 +1,8 @@
 #ifndef MATRIX_H
 #define MATRIX_H
 
-#define M_HEIGHT 	5//50
-#define M_WIDTH 	5//50
+#define M_HEIGHT	800 //50
+#define M_WIDTH 	800 //50
 #define M_ELEMENTS	(M_HEIGHT * M_WIDTH)
 #define CELL_HEIGHT	4
 #define CELL_WIDTH 	4
@@ -16,9 +16,9 @@ mtype** matrix_init();
 
 mtype** matric_static_init();
 
-void matric_show();
+void matrix_show(mtype**);
 
-mtype** matric_multiply();
+mtype** matrix_multiply(mtype**, mtype**);
 
 void matrix_destroy();
 
