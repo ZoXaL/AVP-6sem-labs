@@ -25,10 +25,21 @@ int main()
 			: "%eax", "%ebx");
 	
 	printf("%d\n", f);
-	//c[0] = a[0] + b[0];
-	//c[1] = a[1] + b[1];
+	c[0] = 0;//a[0] + b[0];
+	c[1] = 0;//a[1] + b[1];
 
+	asm volatile(  "movhps (%0), %%xmm0; \
+			movlps 0x8(%0), %%xmm0; \
+			movhps (%1), %%xmm1; \
+			movlps 0x8(%1), %%xmm1; \
+			addpd %%xmm1, %%xmm0; \
+			movhps %%xmm0, (%2); \
+			movlps %%xmm0, 0x8(%2) \
+			"
+			: 
+			: "r"(a), "r"(b), "r"(c) 
+			: "%xmm0", "%xmm1");
 
-	//printf("c[0] = %F, c[1] = %F\n", c[0], c[1]);
+	printf("c[0] = %F, c[1] = %F\n", c[0], c[1]);
 	return 0;
 }
