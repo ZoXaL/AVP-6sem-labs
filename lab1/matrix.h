@@ -24,7 +24,7 @@ mtype** matrix_multiply(mtype**, mtype**);
 
 mtype** matrix_multiply_asm(mtype**, mtype**);
 
-bool matrix_compare(mtype**, mtype**);
+void matrix_compare(mtype**, mtype**);
 
 void matrix_destroy();
 

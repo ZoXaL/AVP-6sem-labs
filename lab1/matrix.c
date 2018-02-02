@@ -74,8 +74,7 @@ void matrix_show(mtype **matrix)
 				}
 				printf("\n");
 			}
-			printf("------------------");
-			printf("------------------\n");
+			printf("------------------------------------\n");
 		}
 	}
 }
@@ -110,9 +109,8 @@ mtype** matrix_multiply_asm(mtype ** first_matrix, mtype ** second_matrix)
 		for (int i = 0; i < CELL_HEIGHT; i++) {
 			for (int j = 0; j < CELL_WIDTH; j++) {
 				for (int k = 0; k < CELL_HEIGHT; k+=2) {
-					__asm volatile("movups (%1), %%xmm0; \
-						movhps (%2), %%xmm1; \
-						movlps (%2), %%xmm1; \
+					__asm volatile("movupd (%1), %%xmm0; \
+						movddup (%2), %%xmm1; \
 						mulpd %%xmm1, %%xmm0; \
 						movups (%0), %%xmm1; \
 						addpd %%xmm1, %%xmm0; \
@@ -127,7 +125,7 @@ mtype** matrix_multiply_asm(mtype ** first_matrix, mtype ** second_matrix)
 	return result;
 }
 
-bool matrix_compare(mtype** a, mtype**b) 
+void matrix_compare(mtype** a, mtype**b) 
 {
 	for (int i = 0; i < M_ELEMENTS; i++) {
 		for (int j = 0; j < CELL_ELEMENTS; j++) {

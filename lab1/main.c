@@ -31,6 +31,7 @@ int main(int argc, char *argv[]) {
 		printf("%s\n", "Second matrix:");
 		matrix_show(matrix2);
 	}
+	
 	start_time = clock();
 	mtype **c_result = matrix_multiply(matrix1, matrix2);
 	end_time = clock();
