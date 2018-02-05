@@ -31,9 +31,8 @@ int main(int argc, char *argv[]) {
 		printf("%s\n", "Second matrix:");
 		matrix_show(matrix2);
 	}
-	/*
 	start_time = clock();
-	mtype **c_result = matrix_multiply(matrix1, matrix2);
+	mtype *c_result = matrix_multiply(matrix1, matrix2);
 	end_time = clock();
 	printf("C time in clocks: %ld\n", end_time - start_time);
 	printf("C time in seconds: %f\n", (double) (end_time - start_time) / CLOCKS_PER_SEC);
@@ -43,18 +42,23 @@ int main(int argc, char *argv[]) {
 	}
 
 	start_time = clock();
-	mtype **asm_result = matrix_multiply_asm(matrix1, matrix2);
+	mtype *c_with_cache_result = matrix_multiply_cache(matrix1, matrix2);
 	end_time = clock();
-	printf("asm time in clocks: %ld\n", end_time - start_time);
-	printf("asm time in seconds: %f\n", (double) (end_time - start_time) / CLOCKS_PER_SEC);
+	printf("with cache time in clocks: %ld\n", end_time - start_time);
+	printf("with cache time in seconds: %f\n", (double) (end_time - start_time) / CLOCKS_PER_SEC);
+	if (SHOW_MATRIX) {
+		printf("%s\n", "Result matrix:");
+		matrix_show(c_with_cache_result);
+	}
 
-	matrix_compare(c_result, asm_result);
+	//matrix_compare(c_result, c_with_cache_result);
 	
-	*/
 	matrix_destroy(matrix1);
 	matrix_destroy(matrix2);
-	//matrix_destroy(c_result);
-	//matrix_destroy(asm_result);
+	matrix_destroy(c_result);
+	
+	matrix_destroy(c_with_cache_result);
+	
 	return 0;
 }
 

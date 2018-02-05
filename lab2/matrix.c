@@ -67,7 +67,45 @@ void matrix_show(mtype *matrix)
 	}
 }
 
-void matrix_destroy(mtype **matrix)
+mtype* matrix_multiply(mtype *first_matrix, mtype *second_matrix)
+{
+	mtype* result = matrix_init(true);
+	for (int i = 0; i < M_HEIGHT; i++) {
+		for (int j = 0; j < M_WIDTH; j++) {
+			for (int k = 0; k < M_WIDTH; k++) {
+				// printf("i[%d], j[%d], k[%d] = %ld\n", i, j, k, b[j*CELL_WIDTH + k] * a[i*CELL_WIDTH + j]);
+				result[i*M_WIDTH + j] += first_matrix[i*M_WIDTH + k] * second_matrix[k*M_WIDTH + j];
+			}
+		}
+	}
+	return result;
+}
+
+mtype* matrix_multiply_cache(mtype* first_matrix, mtype* second_matrix)
+{
+	mtype* result = matrix_init(true);
+	int blockSize = M_ELEMENTS / 4;
+	for(int l = 0; l < 2; l++) {
+		for(int m = 0; m < 2; m++) {
+			for(int n = 0; n < 2; n++) {
+				for(int i = l * blockSize; i < (l + 1) * blockSize; i++) {
+					for(int j = m * blockSize; j < (m + 1) * blockSize; j++) {
+						for(int k = n * blockSize; k < (n + 1) * blockSize; k++) {
+							result[i * M_WIDTH + j] += first_matrix[i * M_WIDTH + k] * second_matrix[k * M_WIDTH + j];
+						}
+					}
+				}
+			}
+		}
+	}
+	/*for (int i = 0; i < M_WIDTH; i++) {
+		for (int j = 0; j < M_HEIGHT; j++) {
+
+		}
+	}*/
+	return result;
+}
+void matrix_destroy(mtype *matrix)
 {
 	free(matrix);
 }
