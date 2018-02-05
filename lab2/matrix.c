@@ -84,14 +84,15 @@ mtype* matrix_multiply(mtype *first_matrix, mtype *second_matrix)
 mtype* matrix_multiply_cache(mtype* first_matrix, mtype* second_matrix)
 {
 	mtype* result = matrix_init(true);
-	int blockSize = M_ELEMENTS / 4;
-	for(int l = 0; l < 2; l++) {
-		for(int m = 0; m < 2; m++) {
-			for(int n = 0; n < 2; n++) {
-				for(int i = l * blockSize; i < (l + 1) * blockSize; i++) {
-					for(int j = m * blockSize; j < (m + 1) * blockSize; j++) {
-						for(int k = n * blockSize; k < (n + 1) * blockSize; k++) {
-							result[i * M_WIDTH + j] += first_matrix[i * M_WIDTH + k] * second_matrix[k * M_WIDTH + j];
+	int blockSize = M_ELEMENTS / B_NUM;
+	for(int l = 0; l < B_HEIGHT; l++) {
+		for(int m = 0; m < B_WIDTH; m++) {
+			for(int n = 0; n < B_WIDTH; n++) {
+				for(int i = l * B_HEIGHT; i < (l + 1) * B_HEIGHT; i++) {
+					for(int j = m * B_WIDTH; j < (m + 1) * B_WIDTH; j++) {
+						for(int k = n * B_WIDTH; k < (n + 1) * B_WIDTH; k++) {
+							result[i * M_WIDTH+ j] += first_matrix[i * M_WIDTH + k] *
+							 second_matrix[k * M_WIDTH + j];
 						}
 					}
 				}

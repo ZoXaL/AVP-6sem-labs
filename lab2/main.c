@@ -5,7 +5,7 @@
 #include "matrix.h"
 
 #define STATIC_INIT 1
-#define SHOW_MATRIX 1
+#define SHOW_MATRIX 0
 
 // TODO: 
 // + generate matrix of matrix
