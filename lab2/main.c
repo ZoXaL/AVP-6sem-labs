@@ -4,7 +4,7 @@
 
 #include "matrix.h"
 
-#define STATIC_INIT 1
+#define STATIC_INIT 0
 #define SHOW_MATRIX 0
 
 int main(int argc, char *argv[]) {
@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 		matrix_show(c_with_cache_result);
 	}
 
-	//matrix_compare(c_result, c_with_cache_result);
+	matrix_compare(c_result, c_with_cache_result);
 	
 	matrix_destroy(matrix1);
 	matrix_destroy(matrix2);

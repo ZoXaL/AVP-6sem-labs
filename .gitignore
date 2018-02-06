@@ -4,3 +4,6 @@ CMakeFiles
 *.s
 *.o
 a.out
+*.swp
+*.swo
+lab?

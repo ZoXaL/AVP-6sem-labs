@@ -15,13 +15,17 @@ Mike proc:
 * L2 — 1024KB 
 */
 
-#define M_HEIGHT	300
-#define M_WIDTH 	300
+#define M_HEIGHT	100
+#define M_WIDTH 	100
 #define M_ELEMENTS	(M_HEIGHT * M_WIDTH)
+
 #define B_HEIGHT 	2
 #define B_WIDTH		2
 #define B_ELEMENTS	(B_HEIGHT * B_WIDTH)
-#define B_NUM		(M_ELEMENTS * B_ELEMENTS)
+
+#define B_COUNT		(M_ELEMENTS / B_ELEMENTS)
+#define B_IN_HEIGHT	(M_HEIGHT / B_HEIGHT)
+#define B_IN_WIDTH	(M_WIDTH / B_WIDTH)
 
 #define EXIT_ERROR	1
 
@@ -37,6 +41,9 @@ mtype* matrix_multiply(mtype*, mtype*);
 
 mtype* matrix_multiply_cache(mtype*, mtype*);
 
+mtype* matrix_multiply_openmp(mtype*, mtype*);
+
 void matrix_destroy();
 
+void matrix_compare(mtype*, mtype*);
 #endif

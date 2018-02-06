@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <omp.h>
 
 #include "matrix.h"
 
@@ -15,31 +16,11 @@ mtype* matrix_init(bool zero)
 		perror("Matrix allocation");
 		exit(EXIT_ERROR);
 	}
-	if (random_seed == 0) {
-		FILE* random_file = fopen("/dev/urandom", "return");
-		if (random_file == NULL) {
-			perror("Open urandom");
-			exit(EXIT_ERROR);
-		}
-
-		if (fread(&random_seed, sizeof(long int), 1, random_file) < 1){
-			perror("Read urandom");
-			exit(EXIT_ERROR);
-		}
-		fclose(random_file);
-
-		srand48(random_seed);
-	}
 	
-	if (zero) {
-		for (int i = 0; i < M_ELEMENTS; i++) {
+	for (int i = 0; i < M_ELEMENTS; i++) {
 			matrix[i] = 0;	
 		}	
-	} else {
-		for (int i = 0; i < M_ELEMENTS; i++) {
-			matrix[i] = mrand48() + drand48();		
-		}	
-	}
+
 	return matrix;
 }
 
@@ -83,13 +64,15 @@ mtype* matrix_multiply(mtype *first_matrix, mtype *second_matrix)
 
 mtype* matrix_multiply_cache(mtype* first_matrix, mtype* second_matrix)
 {
+	
 	mtype* result = matrix_init(true);
+	/*
 	for(int l = 0; l < B_HEIGHT; l++) {
 		for(int m = 0; m < B_WIDTH; m++) {
 			for(int n = 0; n < B_WIDTH; n++) {
-				for(int i = l * B_HEIGHT; i < (l + 1) * B_HEIGHT; i++) {
-					for(int j = m * B_WIDTH; j < (m + 1) * B_WIDTH; j++) {
-						for(int k = n * B_WIDTH; k < (n + 1) * B_WIDTH; k++) {
+				for(int i = l * El_IN_BLOCK_HEIGHT; i < (l + 1) * El_IN_BLOCK_HEIGHT; i++) {
+					for(int j = m * EL_IN_BLOCK_WIDTH; j < (m + 1) * EL_IN_BLOCK_WIDTH; j++) {
+						for(int k = n * EL_IN_BLOCK_WIDTH; k < (n + 1) * EL_IN_BLOCK_WIDTH; k++) {
 							result[i * M_WIDTH+ j] += first_matrix[i * M_WIDTH + k] *
 							 second_matrix[k * M_WIDTH + j];
 						}
@@ -98,11 +81,27 @@ mtype* matrix_multiply_cache(mtype* first_matrix, mtype* second_matrix)
 			}
 		}
 	}
+	*/
 	/*for (int i = 0; i < M_WIDTH; i++) {
 		for (int j = 0; j < M_HEIGHT; j++) {
 
 		}
 	}*/
+	return result;
+}
+
+mtype* matrix_multiply_openmp(mtype* first_matrix, mtype* second_matrix) 
+{
+	mtype* result = matrix_init(true);
+	#pragma omp parallel for
+	for (int i = 0; i < M_HEIGHT; i++) {
+		for (int j = 0; j < M_WIDTH; j++) {
+			for (int k = 0; k < M_WIDTH; k++) {
+				// printf("i[%d], j[%d], k[%d] = %ld\n", i, j, k, b[j*CELL_WIDTH + k] * a[i*CELL_WIDTH + j]);
+				result[i*M_WIDTH + j] += first_matrix[i*M_WIDTH + k] * second_matrix[k*M_WIDTH + j];
+			}
+		}
+	}
 	return result;
 }
 
