@@ -84,7 +84,6 @@ mtype* matrix_multiply(mtype *first_matrix, mtype *second_matrix)
 mtype* matrix_multiply_cache(mtype* first_matrix, mtype* second_matrix)
 {
 	mtype* result = matrix_init(true);
-	int blockSize = M_ELEMENTS / B_NUM;
 	for(int l = 0; l < B_HEIGHT; l++) {
 		for(int m = 0; m < B_WIDTH; m++) {
 			for(int n = 0; n < B_WIDTH; n++) {
@@ -106,6 +105,7 @@ mtype* matrix_multiply_cache(mtype* first_matrix, mtype* second_matrix)
 	}*/
 	return result;
 }
+
 void matrix_destroy(mtype *matrix)
 {
 	free(matrix);

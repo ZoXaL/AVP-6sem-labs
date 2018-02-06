@@ -3,8 +3,16 @@
 
 #include <stdbool.h>
 
-/* Kirill's proc: 4 threads, cashe3 - 3MB, cashe2 - 256KB,
-cashe1(data) - 2*32KB.
+/* Kirill's proc: 4 threads, cache3 - 3MB, cache2 - 256KB,
+cache1(data) - 2*32KB.
+*/
+
+/*
+Mike proc: 
+* 2 cores
+* L1i — 64KB
+* L1d — 64KB
+* L2 — 1024KB 
 */
 
 #define M_HEIGHT	300
