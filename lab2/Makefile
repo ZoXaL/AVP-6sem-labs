@@ -1,4 +1,4 @@
-opts = -O3 -fopt-info-vec-optimized ${d} -std=c11
+opts = ${d} -std=c11
 
 lab1: matrix.s main.s
 	gcc ${opts} $^ -o $@

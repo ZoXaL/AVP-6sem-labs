@@ -7,12 +7,14 @@
 cashe1(data) - 2*32KB.
 */
 
-#define M_HEIGHT	300
-#define M_WIDTH 	300
+#define M_HEIGHT	100
+#define M_WIDTH 	100
 #define M_ELEMENTS	(M_HEIGHT * M_WIDTH)
 #define B_HEIGHT 	2
 #define B_WIDTH		2
 #define B_NUM		(B_HEIGHT * B_WIDTH)
+#define El_IN_BLOCK_HEIGHT M_HEIGHT / B_HEIGHT
+#define EL_IN_BLOCK_WIDTH M_WIDTH / B_HEIGHT
 
 #define EXIT_ERROR	1
 
