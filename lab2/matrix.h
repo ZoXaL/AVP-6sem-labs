@@ -20,7 +20,8 @@ Mike proc:
 #define M_ELEMENTS	(M_HEIGHT * M_WIDTH)
 #define B_HEIGHT 	2
 #define B_WIDTH		2
-#define B_NUM		(B_HEIGHT * B_WIDTH)
+#define B_ELEMENTS	(B_HEIGHT * B_WIDTH)
+#define B_NUM		(M_ELEMENTS * B_ELEMENTS)
 
 #define EXIT_ERROR	1
 

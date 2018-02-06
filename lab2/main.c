@@ -7,13 +7,6 @@
 #define STATIC_INIT 1
 #define SHOW_MATRIX 0
 
-// TODO: 
-// + generate matrix of matrix
-// * check ifndef about vectorization
-// *  
-//
-
-
 int main(int argc, char *argv[]) {
 	clock_t start_time, end_time;
 	mtype *matrix1, *matrix2;
