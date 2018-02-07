@@ -15,12 +15,20 @@ Mike proc:
 * L2 — 1024KB 
 */
 
-#define M_HEIGHT	100
-#define M_WIDTH 	100
-#define M_ELEMENTS	(M_HEIGHT * M_WIDTH)
+#ifndef M_SIZE
+	#define M_SIZE 600
+#endif
+#ifndef B_SIZE
+	#define B_SIZE 20
+#endif
 
-#define B_HEIGHT 	2
-#define B_WIDTH		2
+#define M_HEIGHT	M_SIZE
+#define M_WIDTH 	M_SIZE
+
+#define B_HEIGHT 	B_SIZE
+#define B_WIDTH		B_SIZE
+
+#define M_ELEMENTS	(M_HEIGHT * M_WIDTH)
 #define B_ELEMENTS	(B_HEIGHT * B_WIDTH)
 
 #define B_COUNT		(M_ELEMENTS / B_ELEMENTS)
