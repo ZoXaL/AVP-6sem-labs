@@ -1,4 +1,4 @@
-opts = -fopenmp -std=c11
+opts = -fopenmp -std=c11 -O3 ${d}
 
 lab2: clean matrix2.s main.s
 	gcc ${opts} matrix2.s main.s -o $@
@@ -10,6 +10,9 @@ main.s:
 	gcc ${opts} -S -I. main.c -o $@
 
 # gcc -std=c11 -O3 -fopt-info-vec-all -I. main.c matrix2.c -o tmp
+
+ompp:
+	kinst-ompp gcc ${opts} -I. main.c matrix2.c -o ompp
 
 .PHONY: clean run rerun
 

@@ -18,13 +18,10 @@ int this_thread = omp_get_thread_num(), num_threads = omp_get_num_threads();
   // int my_start = (this_thread  ) * 10 / num_threads;
  
   // int my_end   = (this_thread+1) * 10 / num_threads;
-int c[10000*10000];
+//int c[10000*10000];
  #pragma omp parallel for
-  for(int n=0; n<10000; ++n) {
-  	for(int m=0; m<10000; ++m) {	
-  			c[n*10000+m] = m*n;
-  		// printf(" %d", omp_get_thread_num());
-  	}
+  for(int n=0; n<20; ++n) {
+  	printf("%d-%d\n", n, omp_get_thread_num());
   }
  
     

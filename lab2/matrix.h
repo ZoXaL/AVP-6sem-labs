@@ -16,10 +16,10 @@ Mike proc:
 */
 
 #ifndef M_SIZE
-	#define M_SIZE 600
+	#define M_SIZE 512
 #endif
 #ifndef B_SIZE
-	#define B_SIZE 20
+	#define B_SIZE 16
 #endif
 
 #define M_HEIGHT	M_SIZE
