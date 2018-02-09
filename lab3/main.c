@@ -9,7 +9,7 @@
 #include "gnuplot_i.h"
 #include "matrix.h"
 
-#define N 						100000
+#define N 						1000000
 #define BYTES_IN_KB				1024
 #define BYTES_IN_MB				1024 * 1024
 #define MAX_CACHE_WAY			20
@@ -32,17 +32,17 @@ struct unit* prepare_mass_to_way(int way)
 	struct unit *mass = (struct unit*) malloc(MAX_CACHE_WAY * BYTES_IN_MB);
 	for (int i = 0; i < CELL_PER_STR; i++) {
 		for (int j = 0; j < way; j++) {
+			struct unit* next;
 			if (j < way - 1) {
-				((struct unit*)((char*)mass + i * CELL_SIZE_BYTES + (j * BYTES_IN_MB)))->next = 
-					(struct unit*)((char*)mass + i * CELL_SIZE_BYTES + ((j + 1) * BYTES_IN_MB));
+				next = (struct unit*)((char*)mass + i * CELL_SIZE_BYTES + ((j + 1) * BYTES_IN_MB));
 			} else {
 				if (i < CELL_PER_STR - 1) {
-					((struct unit*)((char*)mass  + i * CELL_SIZE_BYTES + (j * BYTES_IN_MB)))->next =
-						(struct unit*)((char*)mass + (i + 1) * CELL_SIZE_BYTES);					
+					next = (struct unit*)((char*)mass + (i + 1) * CELL_SIZE_BYTES);					
 				} else {
-					((struct unit*)((char*)mass  + i * CELL_SIZE_BYTES + (j * BYTES_IN_MB)))->next = mass;
+					next = mass;
 				}
 			}
+			((struct unit*)((char*)mass  + i * CELL_SIZE_BYTES + (j * BYTES_IN_MB)))->next = next;
 
 		}
 	}
@@ -52,7 +52,7 @@ struct unit* prepare_mass_to_way(int way)
 static __inline__ unsigned long long rdtsc(void)
 {
     unsigned long long int x;
-    __asm__ volatile (".byte 0x0f, 0x31" : "=A" (x));
+    __asm__ volatile ("rdtsc" : "=A" (x));
     return x;
 }
 
@@ -60,22 +60,12 @@ double measure_way_time(struct unit* mass, int way)
 {
 	struct unit *tmp = mass;
 	unsigned long long start_time = rdtsc();
-	// volatile int i;
 	for (int k = 0; k < N; k++) {
-		// for (int i = 0; i < way * CELL_PER_STR; i++) {
-			tmp = tmp->next;
-		// }
+		tmp = tmp->next;
 	}
 	unsigned long long end_time = rdtsc();
 	unsigned long long result = end_time - start_time;
-
-	// printf("%llu\n", start_time);
-	// printf("%llu\n", end_time);
-	// printf("%llu\n", result);
-
-	unsigned long long tmp2 = N;// * way * CELL_PER_STR;
-	// printf("%llu-%llu\n", result, tmp2);
-	return (double)(result / tmp2);
+	return (double)(result / N);
 }
 
 int main(int argc, char *argv[]) {
@@ -85,8 +75,8 @@ int main(int argc, char *argv[]) {
 	for (int i = 1; i < MAX_CACHE_WAY; i++) {
 			x[i] = (double)i;
 			mass = prepare_mass_to_way(i);
-			// printf("%d-%F\n", i, measure_way_time(mass, i));
 			y[i] = measure_way_time(mass, i);
+			printf("%d-%F\n", i, y[i]);
 			free(mass);
 	}
 	gnuplot_ctrl *h = gnuplot_init();
