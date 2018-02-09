@@ -6,7 +6,11 @@ lab3: clean main.c
 
 .PHONY: clean run rerun
 
-rerun: lab3 run 
+bench: lab3 
+	valgrind --tool=cachegrind ./lab3 ${d}
+
+plot: lab3 
+	./lab3 plot
 
 run:
 	./lab3
