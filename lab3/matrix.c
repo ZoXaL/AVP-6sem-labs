@@ -7,5 +7,3 @@
 
 #include "matrix.h"
 
-static long int random_seed = 0;
-
