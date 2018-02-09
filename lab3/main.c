@@ -5,22 +5,19 @@
 #include <assert.h>
 #include <stdlib.h>
 #include <sys/types.h>
-#include <stdbool.h>
 
+#include "gnuplot_i.h"
 #include "matrix.h"
 
-#define EXIT_ERROR	1
-
-
-#define N 5//100000
+#define N 						100000
 #define BYTES_IN_KB				1024
 #define BYTES_IN_MB				1024 * 1024
 #define MAX_CACHE_WAY			20
-#define CACHE_SIZE_KB		 	 64
-#define DELIMETER_SIZE_BYTES		BYTES_IN_MB - STR_SIZE_BYTES
-#define CELL_SIZE_BYTES	     	 64
-#define CELL_PER_STR	(CACHE_SIZE_KB * BYTES_IN_KB) / (MAX_CACHE_WAY * CELL_SIZE_BYTES)
-#define STR_SIZE_BYTES CELL_PER_STR * CELL_SIZE_BYTES
+#define CACHE_SIZE_KB			64
+#define DELIMETER_SIZE_BYTES	BYTES_IN_MB - STR_SIZE_BYTES
+#define CELL_SIZE_BYTES			64
+#define CELL_PER_STR			(CACHE_SIZE_KB * BYTES_IN_KB) / (MAX_CACHE_WAY * CELL_SIZE_BYTES)
+#define STR_SIZE_BYTES 			CELL_PER_STR * CELL_SIZE_BYTES
 
 struct unit 
 {
@@ -30,13 +27,9 @@ struct unit
 
 struct unit *mass;
 
-void init_mass()
+struct unit* prepare_mass_to_way(int way)
 {
-	mass = (struct unit*) malloc(MAX_CACHE_WAY * BYTES_IN_MB);
-}
-
-void prepare_mass_to_way(int way)
-{
+	struct unit *mass = (struct unit*) malloc(MAX_CACHE_WAY * BYTES_IN_MB);
 	for (int i = 0; i < CELL_PER_STR; i++) {
 		for (int j = 0; j < way; j++) {
 			if (j < way - 1) {
@@ -53,6 +46,7 @@ void prepare_mass_to_way(int way)
 
 		}
 	}
+	return mass;
 }
 
 static __inline__ unsigned long long rdtsc(void)
@@ -62,25 +56,43 @@ static __inline__ unsigned long long rdtsc(void)
     return x;
 }
 
-double measure_way_time(int way)
+double measure_way_time(struct unit* mass, int way)
 {
-	unsigned long long start_time;
 	struct unit *tmp = mass;
-	start_time = rdtsc();
-	volatile int i = 0;
+	unsigned long long start_time = rdtsc();
+	// volatile int i;
 	for (int k = 0; k < N; k++) {
-		for (i = 0; i < MAX_CACHE_WAY * CELL_PER_STR; i++) {
+		// for (int i = 0; i < way * CELL_PER_STR; i++) {
 			tmp = tmp->next;
-		}
+		// }
 	}
-	return (double) (rdtsc() - start_time) / (N * MAX_CACHE_WAY * CELL_PER_STR);
+	unsigned long long end_time = rdtsc();
+	unsigned long long result = end_time - start_time;
+
+	// printf("%llu\n", start_time);
+	// printf("%llu\n", end_time);
+	// printf("%llu\n", result);
+
+	unsigned long long tmp2 = N;// * way * CELL_PER_STR;
+	// printf("%llu-%llu\n", result, tmp2);
+	return (double)(result / tmp2);
 }
 
 int main(int argc, char *argv[]) {
-	init_mass();
-	printf("Unit size:%ld\n", sizeof(struct unit));
-	prepare_mass_to_way(9);
-	double ans = measure_way_time(9);
-	printf("res: %f\n", ans);
+	struct unit* mass;
+	double x[MAX_CACHE_WAY];
+	double y[MAX_CACHE_WAY];
+	for (int i = 1; i < MAX_CACHE_WAY; i++) {
+			x[i] = (double)i;
+			mass = prepare_mass_to_way(i);
+			// printf("%d-%F\n", i, measure_way_time(mass, i));
+			y[i] = measure_way_time(mass, i);
+			free(mass);
+	}
+	gnuplot_ctrl *h = gnuplot_init();
+	gnuplot_setstyle(h, "linespoints");
+	gnuplot_plot_xy(h, x, y, MAX_CACHE_WAY, "avg time clocks");
+	getchar();
+	gnuplot_close(h);
 	return 0;
 }
