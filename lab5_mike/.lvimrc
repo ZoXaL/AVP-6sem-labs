@@ -1,0 +1,1 @@
+noremap <F5> :!ctags -R . $AMDAPPSDKROOT/include/CL/cl.h<CR><CR>

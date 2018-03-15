@@ -1,0 +1,528 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CALL_ERROR	cl_api.h	7;"	d
+CALL_SUCCESS	cl_api.h	6;"	d
+CL_A	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	402;"	d
+CL_ABGR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	420;"	d
+CL_ADDRESS_CLAMP	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	482;"	d
+CL_ADDRESS_CLAMP_TO_EDGE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	481;"	d
+CL_ADDRESS_MIRRORED_REPEAT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	484;"	d
+CL_ADDRESS_NONE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	480;"	d
+CL_ADDRESS_REPEAT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	483;"	d
+CL_API	cl_api.h	2;"	d
+CL_ARGB	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	408;"	d
+CL_BGRA	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	407;"	d
+CL_BLOCKING	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	203;"	d
+CL_BUFFER_CREATE_TYPE_REGION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	627;"	d
+CL_BUILD_ERROR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	532;"	d
+CL_BUILD_IN_PROGRESS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	533;"	d
+CL_BUILD_NONE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	531;"	d
+CL_BUILD_PROGRAM_FAILURE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	142;"	d
+CL_BUILD_SUCCESS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	530;"	d
+CL_COMMAND_ACQUIRE_GL_OBJECTS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	604;"	d
+CL_COMMAND_BARRIER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	610;"	d
+CL_COMMAND_COPY_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	594;"	d
+CL_COMMAND_COPY_BUFFER_RECT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	608;"	d
+CL_COMMAND_COPY_BUFFER_TO_IMAGE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	599;"	d
+CL_COMMAND_COPY_IMAGE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	597;"	d
+CL_COMMAND_COPY_IMAGE_TO_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	598;"	d
+CL_COMMAND_FILL_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	612;"	d
+CL_COMMAND_FILL_IMAGE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	613;"	d
+CL_COMMAND_MAP_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	600;"	d
+CL_COMMAND_MAP_IMAGE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	601;"	d
+CL_COMMAND_MARKER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	603;"	d
+CL_COMMAND_MIGRATE_MEM_OBJECTS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	611;"	d
+CL_COMMAND_NATIVE_KERNEL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	591;"	d
+CL_COMMAND_NDRANGE_KERNEL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	589;"	d
+CL_COMMAND_READ_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	592;"	d
+CL_COMMAND_READ_BUFFER_RECT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	606;"	d
+CL_COMMAND_READ_IMAGE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	595;"	d
+CL_COMMAND_RELEASE_GL_OBJECTS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	605;"	d
+CL_COMMAND_SVM_FREE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	614;"	d
+CL_COMMAND_SVM_MAP	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	617;"	d
+CL_COMMAND_SVM_MEMCPY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	615;"	d
+CL_COMMAND_SVM_MEMFILL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	616;"	d
+CL_COMMAND_SVM_UNMAP	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	618;"	d
+CL_COMMAND_TASK	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	590;"	d
+CL_COMMAND_UNMAP_MEM_OBJECT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	602;"	d
+CL_COMMAND_USER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	609;"	d
+CL_COMMAND_WRITE_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	593;"	d
+CL_COMMAND_WRITE_BUFFER_RECT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	607;"	d
+CL_COMMAND_WRITE_IMAGE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	596;"	d
+CL_COMPILER_NOT_AVAILABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	134;"	d
+CL_COMPILE_PROGRAM_FAILURE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	146;"	d
+CL_COMPLETE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	621;"	d
+CL_CONTEXT_DEVICES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	346;"	d
+CL_CONTEXT_INTEROP_USER_SYNC	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	352;"	d
+CL_CONTEXT_NUM_DEVICES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	348;"	d
+CL_CONTEXT_PLATFORM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	351;"	d
+CL_CONTEXT_PROPERTIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	347;"	d
+CL_CONTEXT_REFERENCE_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	345;"	d
+CL_DEPTH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	414;"	d
+CL_DEPTH_STENCIL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	415;"	d
+CL_DEVICE_ADDRESS_BITS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	235;"	d
+CL_DEVICE_AFFINITY_DOMAIN_L1_CACHE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	365;"	d
+CL_DEVICE_AFFINITY_DOMAIN_L2_CACHE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	364;"	d
+CL_DEVICE_AFFINITY_DOMAIN_L3_CACHE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	363;"	d
+CL_DEVICE_AFFINITY_DOMAIN_L4_CACHE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	362;"	d
+CL_DEVICE_AFFINITY_DOMAIN_NEXT_PARTITIONABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	366;"	d
+CL_DEVICE_AFFINITY_DOMAIN_NUMA	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	361;"	d
+CL_DEVICE_AVAILABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	261;"	d
+CL_DEVICE_BUILT_IN_KERNELS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	286;"	d
+CL_DEVICE_COMPILER_AVAILABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	262;"	d
+CL_DEVICE_DOUBLE_FP_CONFIG	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	273;"	d
+CL_DEVICE_ENDIAN_LITTLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	260;"	d
+CL_DEVICE_ERROR_CORRECTION_SUPPORT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	258;"	d
+CL_DEVICE_EXECUTION_CAPABILITIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	263;"	d
+CL_DEVICE_EXTENSIONS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	271;"	d
+CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	251;"	d
+CL_DEVICE_GLOBAL_MEM_CACHE_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	252;"	d
+CL_DEVICE_GLOBAL_MEM_CACHE_TYPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	250;"	d
+CL_DEVICE_GLOBAL_MEM_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	253;"	d
+CL_DEVICE_GLOBAL_VARIABLE_PREFERRED_TOTAL_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	307;"	d
+CL_DEVICE_HOST_UNIFIED_MEMORY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	276;"	d
+CL_DEVICE_IMAGE2D_MAX_HEIGHT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	240;"	d
+CL_DEVICE_IMAGE2D_MAX_WIDTH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	239;"	d
+CL_DEVICE_IMAGE3D_MAX_DEPTH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	243;"	d
+CL_DEVICE_IMAGE3D_MAX_HEIGHT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	242;"	d
+CL_DEVICE_IMAGE3D_MAX_WIDTH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	241;"	d
+CL_DEVICE_IMAGE_BASE_ADDRESS_ALIGNMENT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	298;"	d
+CL_DEVICE_IMAGE_MAX_ARRAY_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	288;"	d
+CL_DEVICE_IMAGE_MAX_BUFFER_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	287;"	d
+CL_DEVICE_IMAGE_PITCH_ALIGNMENT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	297;"	d
+CL_DEVICE_IMAGE_SUPPORT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	244;"	d
+CL_DEVICE_LINKER_AVAILABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	285;"	d
+CL_DEVICE_LOCAL_MEM_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	257;"	d
+CL_DEVICE_LOCAL_MEM_TYPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	256;"	d
+CL_DEVICE_MAX_CLOCK_FREQUENCY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	234;"	d
+CL_DEVICE_MAX_COMPUTE_UNITS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	224;"	d
+CL_DEVICE_MAX_CONSTANT_ARGS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	255;"	d
+CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	254;"	d
+CL_DEVICE_MAX_GLOBAL_VARIABLE_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	300;"	d
+CL_DEVICE_MAX_MEM_ALLOC_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	238;"	d
+CL_DEVICE_MAX_ON_DEVICE_EVENTS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	305;"	d
+CL_DEVICE_MAX_ON_DEVICE_QUEUES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	304;"	d
+CL_DEVICE_MAX_PARAMETER_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	245;"	d
+CL_DEVICE_MAX_PIPE_ARGS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	308;"	d
+CL_DEVICE_MAX_READ_IMAGE_ARGS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	236;"	d
+CL_DEVICE_MAX_READ_WRITE_IMAGE_ARGS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	299;"	d
+CL_DEVICE_MAX_SAMPLERS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	246;"	d
+CL_DEVICE_MAX_WORK_GROUP_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	226;"	d
+CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	225;"	d
+CL_DEVICE_MAX_WORK_ITEM_SIZES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	227;"	d
+CL_DEVICE_MAX_WRITE_IMAGE_ARGS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	237;"	d
+CL_DEVICE_MEM_BASE_ADDR_ALIGN	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	247;"	d
+CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	248;"	d
+CL_DEVICE_NAME	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	266;"	d
+CL_DEVICE_NATIVE_VECTOR_WIDTH_CHAR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	277;"	d
+CL_DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	282;"	d
+CL_DEVICE_NATIVE_VECTOR_WIDTH_FLOAT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	281;"	d
+CL_DEVICE_NATIVE_VECTOR_WIDTH_HALF	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	283;"	d
+CL_DEVICE_NATIVE_VECTOR_WIDTH_INT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	279;"	d
+CL_DEVICE_NATIVE_VECTOR_WIDTH_LONG	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	280;"	d
+CL_DEVICE_NATIVE_VECTOR_WIDTH_SHORT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	278;"	d
+CL_DEVICE_NOT_AVAILABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	133;"	d
+CL_DEVICE_NOT_FOUND	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	132;"	d
+CL_DEVICE_OPENCL_C_VERSION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	284;"	d
+CL_DEVICE_PARENT_DEVICE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	289;"	d
+CL_DEVICE_PARTITION_AFFINITY_DOMAIN	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	292;"	d
+CL_DEVICE_PARTITION_BY_AFFINITY_DOMAIN	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	358;"	d
+CL_DEVICE_PARTITION_BY_COUNTS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	356;"	d
+CL_DEVICE_PARTITION_BY_COUNTS_LIST_END	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	357;"	d
+CL_DEVICE_PARTITION_EQUALLY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	355;"	d
+CL_DEVICE_PARTITION_FAILED	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	149;"	d
+CL_DEVICE_PARTITION_MAX_SUB_DEVICES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	290;"	d
+CL_DEVICE_PARTITION_PROPERTIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	291;"	d
+CL_DEVICE_PARTITION_TYPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	293;"	d
+CL_DEVICE_PIPE_MAX_ACTIVE_RESERVATIONS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	309;"	d
+CL_DEVICE_PIPE_MAX_PACKET_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	310;"	d
+CL_DEVICE_PLATFORM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	272;"	d
+CL_DEVICE_PREFERRED_GLOBAL_ATOMIC_ALIGNMENT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	312;"	d
+CL_DEVICE_PREFERRED_INTEROP_USER_SYNC	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	295;"	d
+CL_DEVICE_PREFERRED_LOCAL_ATOMIC_ALIGNMENT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	313;"	d
+CL_DEVICE_PREFERRED_PLATFORM_ATOMIC_ALIGNMENT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	311;"	d
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	228;"	d
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	233;"	d
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	232;"	d
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_HALF	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	275;"	d
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	230;"	d
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_LONG	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	231;"	d
+CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	229;"	d
+CL_DEVICE_PRINTF_BUFFER_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	296;"	d
+CL_DEVICE_PROFILE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	269;"	d
+CL_DEVICE_PROFILING_TIMER_RESOLUTION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	259;"	d
+CL_DEVICE_QUEUE_ON_DEVICE_MAX_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	303;"	d
+CL_DEVICE_QUEUE_ON_DEVICE_PREFERRED_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	302;"	d
+CL_DEVICE_QUEUE_ON_DEVICE_PROPERTIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	301;"	d
+CL_DEVICE_QUEUE_ON_HOST_PROPERTIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	265;"	d
+CL_DEVICE_QUEUE_PROPERTIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	264;"	d
+CL_DEVICE_REFERENCE_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	294;"	d
+CL_DEVICE_SINGLE_FP_CONFIG	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	249;"	d
+CL_DEVICE_SVM_ATOMICS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	372;"	d
+CL_DEVICE_SVM_CAPABILITIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	306;"	d
+CL_DEVICE_SVM_COARSE_GRAIN_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	369;"	d
+CL_DEVICE_SVM_FINE_GRAIN_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	370;"	d
+CL_DEVICE_SVM_FINE_GRAIN_SYSTEM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	371;"	d
+CL_DEVICE_TYPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	222;"	d
+CL_DEVICE_TYPE_ACCELERATOR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	217;"	d
+CL_DEVICE_TYPE_ALL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	219;"	d
+CL_DEVICE_TYPE_CPU	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	215;"	d
+CL_DEVICE_TYPE_CUSTOM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	218;"	d
+CL_DEVICE_TYPE_DEFAULT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	214;"	d
+CL_DEVICE_TYPE_GPU	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	216;"	d
+CL_DEVICE_VENDOR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	267;"	d
+CL_DEVICE_VENDOR_ID	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	223;"	d
+CL_DEVICE_VERSION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	270;"	d
+CL_DRIVER_VERSION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	268;"	d
+CL_EVENT_COMMAND_EXECUTION_STATUS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	585;"	d
+CL_EVENT_COMMAND_QUEUE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	582;"	d
+CL_EVENT_COMMAND_TYPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	583;"	d
+CL_EVENT_CONTEXT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	586;"	d
+CL_EVENT_REFERENCE_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	584;"	d
+CL_EXEC_KERNEL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	335;"	d
+CL_EXEC_NATIVE_KERNEL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	336;"	d
+CL_EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	145;"	d
+CL_FALSE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	201;"	d
+CL_FILTER_LINEAR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	488;"	d
+CL_FILTER_NEAREST	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	487;"	d
+CL_FLOAT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	437;"	d
+CL_FP_CORRECTLY_ROUNDED_DIVIDE_SQRT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	323;"	d
+CL_FP_DENORM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	316;"	d
+CL_FP_FMA	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	321;"	d
+CL_FP_INF_NAN	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	317;"	d
+CL_FP_ROUND_TO_INF	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	320;"	d
+CL_FP_ROUND_TO_NEAREST	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	318;"	d
+CL_FP_ROUND_TO_ZERO	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	319;"	d
+CL_FP_SOFT_FLOAT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	322;"	d
+CL_GLOBAL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	332;"	d
+CL_HALF_FLOAT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	436;"	d
+CL_IMAGE_ARRAY_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	470;"	d
+CL_IMAGE_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	471;"	d
+CL_IMAGE_DEPTH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	469;"	d
+CL_IMAGE_ELEMENT_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	464;"	d
+CL_IMAGE_FORMAT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	463;"	d
+CL_IMAGE_FORMAT_MISMATCH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	140;"	d
+CL_IMAGE_FORMAT_NOT_SUPPORTED	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	141;"	d
+CL_IMAGE_HEIGHT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	468;"	d
+CL_IMAGE_NUM_MIP_LEVELS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	472;"	d
+CL_IMAGE_NUM_SAMPLES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	473;"	d
+CL_IMAGE_ROW_PITCH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	465;"	d
+CL_IMAGE_SLICE_PITCH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	466;"	d
+CL_IMAGE_WIDTH	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	467;"	d
+CL_INTENSITY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	409;"	d
+CL_INVALID_ARG_INDEX	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	171;"	d
+CL_INVALID_ARG_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	173;"	d
+CL_INVALID_ARG_VALUE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	172;"	d
+CL_INVALID_BINARY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	164;"	d
+CL_INVALID_BUFFER_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	183;"	d
+CL_INVALID_BUILD_OPTIONS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	165;"	d
+CL_INVALID_COMMAND_QUEUE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	158;"	d
+CL_INVALID_COMPILER_OPTIONS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	188;"	d
+CL_INVALID_CONTEXT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	156;"	d
+CL_INVALID_DEVICE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	155;"	d
+CL_INVALID_DEVICE_PARTITION_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	190;"	d
+CL_INVALID_DEVICE_QUEUE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	192;"	d
+CL_INVALID_DEVICE_TYPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	153;"	d
+CL_INVALID_EVENT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	180;"	d
+CL_INVALID_EVENT_WAIT_LIST	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	179;"	d
+CL_INVALID_GLOBAL_OFFSET	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	178;"	d
+CL_INVALID_GLOBAL_WORK_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	185;"	d
+CL_INVALID_GL_OBJECT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	182;"	d
+CL_INVALID_HOST_PTR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	159;"	d
+CL_INVALID_IMAGE_DESCRIPTOR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	187;"	d
+CL_INVALID_IMAGE_FORMAT_DESCRIPTOR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	161;"	d
+CL_INVALID_IMAGE_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	162;"	d
+CL_INVALID_KERNEL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	170;"	d
+CL_INVALID_KERNEL_ARGS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	174;"	d
+CL_INVALID_KERNEL_DEFINITION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	169;"	d
+CL_INVALID_KERNEL_NAME	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	168;"	d
+CL_INVALID_LINKER_OPTIONS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	189;"	d
+CL_INVALID_MEM_OBJECT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	160;"	d
+CL_INVALID_MIP_LEVEL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	184;"	d
+CL_INVALID_OPERATION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	181;"	d
+CL_INVALID_PIPE_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	191;"	d
+CL_INVALID_PLATFORM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	154;"	d
+CL_INVALID_PROGRAM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	166;"	d
+CL_INVALID_PROGRAM_EXECUTABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	167;"	d
+CL_INVALID_PROPERTY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	186;"	d
+CL_INVALID_QUEUE_PROPERTIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	157;"	d
+CL_INVALID_SAMPLER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	163;"	d
+CL_INVALID_VALUE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	152;"	d
+CL_INVALID_WORK_DIMENSION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	175;"	d
+CL_INVALID_WORK_GROUP_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	176;"	d
+CL_INVALID_WORK_ITEM_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	177;"	d
+CL_KERNEL_ARG_ACCESS_NONE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	560;"	d
+CL_KERNEL_ARG_ACCESS_QUALIFIER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	545;"	d
+CL_KERNEL_ARG_ACCESS_READ_ONLY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	557;"	d
+CL_KERNEL_ARG_ACCESS_READ_WRITE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	559;"	d
+CL_KERNEL_ARG_ACCESS_WRITE_ONLY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	558;"	d
+CL_KERNEL_ARG_ADDRESS_CONSTANT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	553;"	d
+CL_KERNEL_ARG_ADDRESS_GLOBAL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	551;"	d
+CL_KERNEL_ARG_ADDRESS_LOCAL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	552;"	d
+CL_KERNEL_ARG_ADDRESS_PRIVATE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	554;"	d
+CL_KERNEL_ARG_ADDRESS_QUALIFIER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	544;"	d
+CL_KERNEL_ARG_INFO_NOT_AVAILABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	150;"	d
+CL_KERNEL_ARG_NAME	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	548;"	d
+CL_KERNEL_ARG_TYPE_CONST	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	564;"	d
+CL_KERNEL_ARG_TYPE_NAME	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	546;"	d
+CL_KERNEL_ARG_TYPE_NONE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	563;"	d
+CL_KERNEL_ARG_TYPE_PIPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	567;"	d
+CL_KERNEL_ARG_TYPE_QUALIFIER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	547;"	d
+CL_KERNEL_ARG_TYPE_RESTRICT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	565;"	d
+CL_KERNEL_ARG_TYPE_VOLATILE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	566;"	d
+CL_KERNEL_ATTRIBUTES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	541;"	d
+CL_KERNEL_COMPILE_WORK_GROUP_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	571;"	d
+CL_KERNEL_CONTEXT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	539;"	d
+CL_KERNEL_EXEC_INFO_SVM_FINE_GRAIN_SYSTEM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	579;"	d
+CL_KERNEL_EXEC_INFO_SVM_PTRS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	578;"	d
+CL_KERNEL_FUNCTION_NAME	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	536;"	d
+CL_KERNEL_GLOBAL_WORK_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	575;"	d
+CL_KERNEL_LOCAL_MEM_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	572;"	d
+CL_KERNEL_NUM_ARGS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	537;"	d
+CL_KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	573;"	d
+CL_KERNEL_PRIVATE_MEM_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	574;"	d
+CL_KERNEL_PROGRAM	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	540;"	d
+CL_KERNEL_REFERENCE_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	538;"	d
+CL_KERNEL_WORK_GROUP_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	570;"	d
+CL_LINKER_NOT_AVAILABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	147;"	d
+CL_LINK_PROGRAM_FAILURE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	148;"	d
+CL_LOCAL	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	331;"	d
+CL_LUMINANCE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	410;"	d
+CL_MAP_FAILURE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	143;"	d
+CL_MAP_READ	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	501;"	d
+CL_MAP_WRITE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	502;"	d
+CL_MAP_WRITE_INVALIDATE_REGION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	503;"	d
+CL_MEM_ALLOC_HOST_PTR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	386;"	d
+CL_MEM_ASSOCIATED_MEMOBJECT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	458;"	d
+CL_MEM_CONTEXT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	457;"	d
+CL_MEM_COPY_HOST_PTR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	387;"	d
+CL_MEM_COPY_OVERLAP	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	139;"	d
+CL_MEM_FLAGS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	452;"	d
+CL_MEM_HOST_NO_ACCESS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	391;"	d
+CL_MEM_HOST_PTR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	454;"	d
+CL_MEM_HOST_READ_ONLY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	390;"	d
+CL_MEM_HOST_WRITE_ONLY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	389;"	d
+CL_MEM_KERNEL_READ_AND_WRITE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	394;"	d
+CL_MEM_MAP_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	455;"	d
+CL_MEM_OBJECT_ALLOCATION_FAILURE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	135;"	d
+CL_MEM_OBJECT_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	441;"	d
+CL_MEM_OBJECT_IMAGE1D	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	445;"	d
+CL_MEM_OBJECT_IMAGE1D_ARRAY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	446;"	d
+CL_MEM_OBJECT_IMAGE1D_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	447;"	d
+CL_MEM_OBJECT_IMAGE2D	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	442;"	d
+CL_MEM_OBJECT_IMAGE2D_ARRAY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	444;"	d
+CL_MEM_OBJECT_IMAGE3D	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	443;"	d
+CL_MEM_OBJECT_PIPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	448;"	d
+CL_MEM_OFFSET	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	459;"	d
+CL_MEM_READ_ONLY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	384;"	d
+CL_MEM_READ_WRITE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	382;"	d
+CL_MEM_REFERENCE_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	456;"	d
+CL_MEM_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	453;"	d
+CL_MEM_SVM_ATOMICS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	393;"	d
+CL_MEM_SVM_FINE_GRAIN_BUFFER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	392;"	d
+CL_MEM_TYPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	451;"	d
+CL_MEM_USES_SVM_POINTER	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	460;"	d
+CL_MEM_USE_HOST_PTR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	385;"	d
+CL_MEM_WRITE_ONLY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	383;"	d
+CL_MIGRATE_MEM_OBJECT_CONTENT_UNDEFINED	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	398;"	d
+CL_MIGRATE_MEM_OBJECT_HOST	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	397;"	d
+CL_MISALIGNED_SUB_BUFFER_OFFSET	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	144;"	d
+CL_NONE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	326;"	d
+CL_NON_BLOCKING	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	204;"	d
+CL_OUT_OF_HOST_MEMORY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	137;"	d
+CL_OUT_OF_RESOURCES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	136;"	d
+CL_PIPE_MAX_PACKETS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	477;"	d
+CL_PIPE_PACKET_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	476;"	d
+CL_PLATFORM_EXTENSIONS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	211;"	d
+CL_PLATFORM_NAME	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	209;"	d
+CL_PLATFORM_PROFILE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	207;"	d
+CL_PLATFORM_VENDOR	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	210;"	d
+CL_PLATFORM_VERSION	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	208;"	d
+CL_PROFILING_COMMAND_COMPLETE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	634;"	d
+CL_PROFILING_COMMAND_END	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	633;"	d
+CL_PROFILING_COMMAND_QUEUED	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	630;"	d
+CL_PROFILING_COMMAND_START	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	632;"	d
+CL_PROFILING_COMMAND_SUBMIT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	631;"	d
+CL_PROFILING_INFO_NOT_AVAILABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	138;"	d
+CL_PROGRAM_BINARIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	512;"	d
+CL_PROGRAM_BINARY_SIZES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	511;"	d
+CL_PROGRAM_BINARY_TYPE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	520;"	d
+CL_PROGRAM_BINARY_TYPE_COMPILED_OBJECT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	525;"	d
+CL_PROGRAM_BINARY_TYPE_EXECUTABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	527;"	d
+CL_PROGRAM_BINARY_TYPE_LIBRARY	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	526;"	d
+CL_PROGRAM_BINARY_TYPE_NONE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	524;"	d
+CL_PROGRAM_BUILD_GLOBAL_VARIABLE_TOTAL_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	521;"	d
+CL_PROGRAM_BUILD_LOG	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	519;"	d
+CL_PROGRAM_BUILD_OPTIONS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	518;"	d
+CL_PROGRAM_BUILD_STATUS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	517;"	d
+CL_PROGRAM_CONTEXT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	507;"	d
+CL_PROGRAM_DEVICES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	509;"	d
+CL_PROGRAM_KERNEL_NAMES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	514;"	d
+CL_PROGRAM_NUM_DEVICES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	508;"	d
+CL_PROGRAM_NUM_KERNELS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	513;"	d
+CL_PROGRAM_REFERENCE_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	506;"	d
+CL_PROGRAM_SOURCE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	510;"	d
+CL_QUEUED	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	624;"	d
+CL_QUEUE_CONTEXT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	375;"	d
+CL_QUEUE_DEVICE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	376;"	d
+CL_QUEUE_ON_DEVICE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	341;"	d
+CL_QUEUE_ON_DEVICE_DEFAULT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	342;"	d
+CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	339;"	d
+CL_QUEUE_PROFILING_ENABLE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	340;"	d
+CL_QUEUE_PROPERTIES	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	378;"	d
+CL_QUEUE_REFERENCE_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	377;"	d
+CL_QUEUE_SIZE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	379;"	d
+CL_R	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	401;"	d
+CL_RA	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	404;"	d
+CL_READ_ONLY_CACHE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	327;"	d
+CL_READ_WRITE_CACHE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	328;"	d
+CL_RG	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	403;"	d
+CL_RGB	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	405;"	d
+CL_RGBA	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	406;"	d
+CL_RGBx	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	413;"	d
+CL_RGx	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	412;"	d
+CL_RUNNING	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	622;"	d
+CL_Rx	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	411;"	d
+CL_SAMPLER_ADDRESSING_MODE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	494;"	d
+CL_SAMPLER_CONTEXT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	492;"	d
+CL_SAMPLER_FILTER_MODE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	495;"	d
+CL_SAMPLER_LOD_MAX	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	498;"	d
+CL_SAMPLER_LOD_MIN	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	497;"	d
+CL_SAMPLER_MIP_FILTER_MODE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	496;"	d
+CL_SAMPLER_NORMALIZED_COORDS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	493;"	d
+CL_SAMPLER_REFERENCE_COUNT	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	491;"	d
+CL_SIGNED_INT16	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	431;"	d
+CL_SIGNED_INT32	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	432;"	d
+CL_SIGNED_INT8	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	430;"	d
+CL_SNORM_INT16	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	424;"	d
+CL_SNORM_INT8	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	423;"	d
+CL_SUBMITTED	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	623;"	d
+CL_SUCCESS	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	131;"	d
+CL_TRUE	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	202;"	d
+CL_UNORM_INT16	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	426;"	d
+CL_UNORM_INT24	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	438;"	d
+CL_UNORM_INT8	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	425;"	d
+CL_UNORM_INT_101010	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	429;"	d
+CL_UNORM_SHORT_555	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	428;"	d
+CL_UNORM_SHORT_565	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	427;"	d
+CL_UNSIGNED_INT16	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	434;"	d
+CL_UNSIGNED_INT32	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	435;"	d
+CL_UNSIGNED_INT8	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	433;"	d
+CL_VERSION_1_0	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	195;"	d
+CL_VERSION_1_1	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	196;"	d
+CL_VERSION_1_2	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	197;"	d
+CL_VERSION_2_0	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	198;"	d
+CL_sBGRA	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	419;"	d
+CL_sRGB	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	416;"	d
+CL_sRGBA	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	418;"	d
+CL_sRGBx	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	417;"	d
+MATRIX_H	matrix.h	2;"	d
+MATRIX_HEIGHT	matrix.h	5;"	d
+MATRIX_SIZE_BYTES	matrix.h	6;"	d
+MATRIX_WIDTH	matrix.h	4;"	d
+MAX_DEVICES	cl_api.c	6;"	d	file:
+MAX_PLATFORMS	cl_api.c	5;"	d	file:
+NWITEMS	main_first.c	5;"	d	file:
+__OPENCL_CL_H	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	25;"	d
+_cl_buffer_region	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_buffer_region {$/;"	s
+_cl_image_desc	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_image_desc {$/;"	s
+_cl_image_format	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_image_format {$/;"	s
+buffer	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^      cl_mem                  buffer;$/;"	m	union:_cl_image_desc::__anon1
+call_errno	cl_api.c	/^cl_int call_errno;$/;"	v
+cl_addressing_mode	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_addressing_mode;$/;"	t
+cl_bitfield	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_ulong            cl_bitfield;$/;"	t
+cl_bool	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_bool;                     \/* WARNING!  Unlike cl_ types in cl_platform.h, cl_bool is not guaranteed to be the same size as the bool in kernels. *\/ $/;"	t
+cl_buffer_create_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_buffer_create_type;$/;"	t
+cl_buffer_region	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^} cl_buffer_region;$/;"	t	typeref:struct:_cl_buffer_region
+cl_build_status	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_int              cl_build_status;$/;"	t
+cl_channel_order	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_channel_order;$/;"	t
+cl_channel_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_channel_type;$/;"	t
+cl_command_queue	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_command_queue *  cl_command_queue;$/;"	t	typeref:struct:_cl_command_queue
+cl_command_queue_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_command_queue_info;$/;"	t
+cl_command_queue_properties	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_command_queue_properties;$/;"	t
+cl_command_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_command_type;$/;"	t
+cl_context	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_context *        cl_context;$/;"	t	typeref:struct:_cl_context
+cl_context_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_context_info;$/;"	t
+cl_context_properties	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef intptr_t            cl_context_properties;$/;"	t
+cl_device_affinity_domain	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_device_affinity_domain;$/;"	t
+cl_device_exec_capabilities	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_device_exec_capabilities;$/;"	t
+cl_device_fp_config	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_device_fp_config;$/;"	t
+cl_device_id	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_device_id *      cl_device_id;$/;"	t	typeref:struct:_cl_device_id
+cl_device_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_device_info;$/;"	t
+cl_device_local_mem_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_device_local_mem_type;$/;"	t
+cl_device_mem_cache_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_device_mem_cache_type;$/;"	t
+cl_device_partition_property	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef intptr_t            cl_device_partition_property;$/;"	t
+cl_device_svm_capabilities	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_device_svm_capabilities;$/;"	t
+cl_device_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_device_type;$/;"	t
+cl_errno	cl_api.c	/^cl_int cl_errno;$/;"	v
+cl_event	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_event *          cl_event;$/;"	t	typeref:struct:_cl_event
+cl_event_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_event_info;$/;"	t
+cl_filter_mode	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_filter_mode;$/;"	t
+cl_image_desc	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^} cl_image_desc;$/;"	t	typeref:struct:_cl_image_desc
+cl_image_format	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^} cl_image_format;$/;"	t	typeref:struct:_cl_image_format
+cl_image_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_image_info;$/;"	t
+cl_kernel	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_kernel *         cl_kernel;$/;"	t	typeref:struct:_cl_kernel
+cl_kernel_arg_access_qualifier	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_kernel_arg_access_qualifier;$/;"	t
+cl_kernel_arg_address_qualifier	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_kernel_arg_address_qualifier;$/;"	t
+cl_kernel_arg_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_kernel_arg_info;$/;"	t
+cl_kernel_arg_type_qualifier	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_kernel_arg_type_qualifier;$/;"	t
+cl_kernel_exec_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_kernel_exec_info;$/;"	t
+cl_kernel_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_kernel_info;$/;"	t
+cl_kernel_work_group_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_kernel_work_group_info;$/;"	t
+cl_map_flags	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_map_flags;$/;"	t
+cl_mem	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_mem *            cl_mem;$/;"	t	typeref:struct:_cl_mem
+cl_mem_flags	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_mem_flags;$/;"	t
+cl_mem_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_mem_info;$/;"	t
+cl_mem_migration_flags	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_mem_migration_flags;$/;"	t
+cl_mem_object_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_mem_object_type;$/;"	t
+cl_pipe_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_pipe_info;$/;"	t
+cl_pipe_properties	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef intptr_t            cl_pipe_properties;$/;"	t
+cl_platform_id	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_platform_id *    cl_platform_id;$/;"	t	typeref:struct:_cl_platform_id
+cl_platform_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_platform_info;$/;"	t
+cl_profiling_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_profiling_info;$/;"	t
+cl_program	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_program *        cl_program;$/;"	t	typeref:struct:_cl_program
+cl_program_binary_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_program_binary_type;$/;"	t
+cl_program_build_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_program_build_info;$/;"	t
+cl_program_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_program_info;$/;"	t
+cl_queue_properties	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_queue_properties;$/;"	t
+cl_sampler	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef struct _cl_sampler *        cl_sampler;$/;"	t	typeref:struct:_cl_sampler
+cl_sampler_info	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_uint             cl_sampler_info;$/;"	t
+cl_sampler_properties	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_sampler_properties;$/;"	t
+cl_svm_mem_flags	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^typedef cl_bitfield         cl_svm_mem_flags;$/;"	t
+convertToString	tmp.c	/^int convertToString(const char *filename, std::string& s)$/;"	f
+flushin	cl_api.h	9;"	d
+get_cl_program	cl_api.c	/^cl_program get_cl_program(cl_context context, const char *filename)$/;"	f
+get_device_group_size	cl_api.c	/^size_t get_device_group_size(cl_device_id device)$/;"	f
+get_device_id	cl_api.c	/^cl_device_id get_device_id(cl_platform_id platform_id)$/;"	f
+get_platform_id	cl_api.c	/^cl_platform_id get_platform_id()$/;"	f
+image_array_size	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    size_t                  image_array_size;$/;"	m	struct:_cl_image_desc
+image_channel_data_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    cl_channel_type         image_channel_data_type;$/;"	m	struct:_cl_image_format
+image_channel_order	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    cl_channel_order        image_channel_order;$/;"	m	struct:_cl_image_format
+image_depth	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    size_t                  image_depth;$/;"	m	struct:_cl_image_desc
+image_height	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    size_t                  image_height;$/;"	m	struct:_cl_image_desc
+image_row_pitch	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    size_t                  image_row_pitch;$/;"	m	struct:_cl_image_desc
+image_slice_pitch	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    size_t                  image_slice_pitch;$/;"	m	struct:_cl_image_desc
+image_type	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    cl_mem_object_type      image_type;$/;"	m	struct:_cl_image_desc
+image_width	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    size_t                  image_width;$/;"	m	struct:_cl_image_desc
+localsize	tmp.c	/^const int  localsize=64;$/;"	v
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+main	main_first.c	/^int main(int argc, char *argv[])$/;"	f
+main	tmp.c	/^int main(int argc,char *argv[])$/;"	f
+matrix_create	matrix.c	/^mtype* matrix_create(int w, int h)$/;"	f
+matrix_release	matrix.c	/^void matrix_release(mtype* matrix)$/;"	f
+matrix_show	matrix.c	/^void matrix_show(mtype* matrix, int w, int h)$/;"	f
+mem_object	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^      cl_mem                  mem_object;$/;"	m	union:_cl_image_desc::__anon1
+mtype	matrix.h	/^typedef int mtype;$/;"	t
+num_mip_levels	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    cl_uint                 num_mip_levels;$/;"	m	struct:_cl_image_desc
+num_samples	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    cl_uint                 num_samples;$/;"	m	struct:_cl_image_desc
+opencl_flags	Makefile	/^opencl_flags := -Wno-deprecated-declarations$/;"	m
+origin	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    size_t                  origin;$/;"	m	struct:_cl_buffer_region
+size	/home/zoxal/OpenCL/AMDAPPSDK-3.0/include/CL/cl.h	/^    size_t                  size;$/;"	m	struct:_cl_buffer_region
+sizespace	tmp.c	/^const int  sizespace=4;$/;"	v
+source	main_first.c	/^const char *source = $/;"	v
+std	tmp.c	/^using namespace std;$/;"	v
+width	tmp.c	/^const int  width=256;$/;"	v
